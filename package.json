@@ -1,0 +1,28 @@
+{
+    "name": "backboil",
+    "version": "1.1.0",
+    "description": "A command-line tool to scaffold a boilerplate Node.js Express application",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "backboil": "./index.js"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "backboil": "^1.0.0",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.1",
+        "fs-extra": "^10.0.0",
+        "mongoose": "^7.0.0"
+    },
+    "keywords": [
+        "boilerplate",
+        "express",
+        "nodejs",
+        "mongoose"
+    ],
+    "author": "Shiv Bhadaniya",
+    "license": "MIT"
+}
